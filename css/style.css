@@ -55,8 +55,7 @@ table {
 
 header {
   width: 100%;
-  height: 0px;
-  background-color: red; }
+  height: 0px; }
 
 header .men {
   position: relative;
@@ -64,7 +63,7 @@ header .men {
 
 header li a {
   color: #dddedf;
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 35px;
   text-decoration: none;
@@ -82,7 +81,7 @@ header .menu {
 
 header .menu li a {
   color: #dddedf;
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   font-size: 35px;
   font-weight: 700;
   text-decoration: none;
@@ -113,7 +112,7 @@ header .menu li a {
   text-align: center;
   position: relative;
   top: 97px;
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   font-size: 77px;
   font-weight: 600;
   color: #ad6c12;
@@ -129,7 +128,7 @@ header .menu li a {
 
 .container2 h3 {
   text-align: center;
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   font-size: 38px;
   font-weight: 600;
   color: #26363a;
@@ -147,7 +146,7 @@ header .menu li a {
   position: relative;
   top: 162px;
   left: 100px;
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   font-size: 29px;
   font-weight: bold;
   color: #ffffff;
@@ -160,7 +159,7 @@ header .menu li a {
   position: relative;
   top: 205px;
   left: 100px;
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   font-size: 19px;
   font-weight: 400;
   color: #ffffff; }
@@ -174,5 +173,78 @@ header .menu li a {
 .container3 .grida .itema {
   width: 355px;
   height: 525; }
+
+.container4 .elipse {
+  width: 100%;
+  height: 375px;
+  background-color: #d4d8d9; }
+  .container4 .elipse .container-fluid {
+    position: relative;
+    top: 100px; }
+  .container4 .elipse .item_img {
+    text-align: left; }
+    .container4 .elipse .item_img img {
+      max-width: 100%; }
+    .container4 .elipse .item_img h3 {
+      display: block;
+      font-family: "Raleway", sans-serif;
+      font-size: 19px;
+      font-weight: 700;
+      color: #2a3b40;
+      margin-top: 30px; }
+    .container4 .elipse .item_img p {
+      font-family: "Raleway", sans-serif;
+      font-size: 16px;
+      font-weight: 400;
+      color: #2a3b40;
+      margin-top: 40px;
+      max-width: 325px; }
+
+.container5 {
+  margin: 0 auto;
+  text-align: center;
+  max-height: 1205px; }
+  .container5 .card {
+    position: relative;
+    top: -1117px;
+    width: 100%;
+    height: 1030px;
+    background-color: rgba(251, 249, 243, 0.82); }
+    .container5 .card h1 {
+      text-align: center;
+      position: relative;
+      top: 55px;
+      font-family: 'Cookie', cursive;
+      font-size: 77px;
+      color: #304751; }
+    .container5 .card h2 {
+      text-align: center;
+      position: relative;
+      top: 45px;
+      font-family: "Raleway", sans-serif;
+      font-size: 48px;
+      font-weight: 600;
+      color: #ad6c12;
+      text-transform: uppercase; }
+    .container5 .card .plate .container-fluid {
+      padding-left: 0px;
+      padding-right: 0px;
+      margin-top: 77px; }
+      .container5 .card .plate .container-fluid h3 {
+        display: block;
+        font-family: "Raleway", sans-serif;
+        text-transform: uppercase;
+        font-size: 19px;
+        font-weight: 700;
+        color: #304751;
+        margin-top: 70px; }
+      .container5 .card .plate .container-fluid p {
+        text-align: center;
+        font-family: "Raleway", sans-serif;
+        font-size: 17px;
+        font-weight: 400;
+        color: #304751;
+        margin-top: 27px;
+        line-height: 1.5; }
 
 /*# sourceMappingURL=style.css.map */
