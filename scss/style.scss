@@ -1,0 +1,207 @@
+/*RESET.CSS*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*END RESET.CSS*/
+
+
+
+$main_color: #dddedf;
+$main_color2:#ffffff;
+$main_font_size: 16px;
+$h3_size: $main_font_size * 2;
+
+
+.wrapper{
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.center{
+    max-width: 1080px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header{
+    width: 100%;
+    height: 0px;
+    background-color: red;
+}
+
+header .men{
+    position: relative;
+    top: 60px;
+}
+
+header  li a{
+	color: $main_color;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+	font-size: 35px;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+header .menu  li{
+	margin-left: 25px;
+}
+
+header .menu {
+    display: flex;
+    justify-content: flex-end;
+    margin-left: 265px;
+    position: relative;
+    top: 26px;
+}
+
+
+header .menu  li a{
+	color: $main_color;
+	font-family: 'Raleway', sans-serif;
+    font-size: 35px;
+    font-weight: 700;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+.container2{
+    margin: 0 auto;
+    text-align: center;
+    max-height: 1000px;
+}
+
+.container2 .cen{
+    width: 760px;
+    height: 475px;
+    background-color: rgba(217, 220, 221, 0.82);
+    position: relative;
+    top: -695px;
+    margin-left: 340px;
+}
+
+.container2 h1{
+	text-align: center;
+	position: relative;
+	top: 115px;
+	font-family: 'Cookie', cursive;
+	font-size: 104px;
+	color: #2c3a42;
+}
+
+.container2 h2{
+	text-align: center;
+	position: relative;
+	top: 97px ;
+	font-family: 'Raleway', sans-serif;
+	font-size: 77px;
+	font-weight: 600;
+    color: #ad6c12;
+    text-transform: uppercase;
+}
+
+.container2 .ter{
+    width: 267px;
+    height: 60px;
+    position: relative;
+    top: 110px;
+    margin-left: 247px;
+    background: $main_color2;
+}
+
+.container2 h3{
+	text-align: center;
+	font-family: 'Raleway', sans-serif;
+	font-size: 38px;
+	font-weight: 600;
+    color: #26363a;
+    text-transform: uppercase;
+    padding-top: 12px;
+}
+
+.container3 .about{
+	width: 100%;
+	height: 490px;
+    background: #2a3b40;
+    text-align: center;
+}
+
+.container3 .about h3{
+	text-align: left;
+	position: relative;
+    top: 162px;
+    left: 100px;
+	font-family: 'Raleway', sans-serif;
+	font-size: 29px;
+	font-weight: bold;
+    color: $main_color2;
+    max-width: 1080px;
+}
+
+.container3 .about p{
+    max-width: 565px;
+    line-height: 2;
+	text-align: left;
+	position: relative;
+    top: 205px ;
+    left: 100px;
+	font-family: 'Raleway', sans-serif;
+	font-size: 19px;
+	font-weight: 400;
+	color: $main_color2;
+}
+
+.container3 .grida{
+	position: relative;
+	top: -60px;
+	left: 740px;
+	width: 50%;
+}
+
+.container3 .grida .itema{
+    width: 355px;
+    height: 525;
+}
