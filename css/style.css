@@ -229,22 +229,110 @@ header .menu li a {
     .container5 .card .plate .container-fluid {
       padding-left: 0px;
       padding-right: 0px;
-      margin-top: 77px; }
-      .container5 .card .plate .container-fluid h3 {
-        display: block;
-        font-family: "Raleway", sans-serif;
-        text-transform: uppercase;
-        font-size: 19px;
-        font-weight: 700;
-        color: #304751;
-        margin-top: 70px; }
-      .container5 .card .plate .container-fluid p {
-        text-align: center;
-        font-family: "Raleway", sans-serif;
-        font-size: 17px;
-        font-weight: 400;
-        color: #304751;
-        margin-top: 27px;
-        line-height: 1.5; }
+      margin-top: 82px;
+      margin-left: -15px; }
+      .container5 .card .plate .container-fluid .item_img {
+        max-width: 270px;
+        height: 274px; }
+        .container5 .card .plate .container-fluid .item_img h3 {
+          display: block;
+          font-family: "Raleway", sans-serif;
+          text-transform: uppercase;
+          font-size: 19px;
+          font-weight: 700;
+          color: #304751;
+          margin-top: 70px; }
+        .container5 .card .plate .container-fluid .item_img p {
+          text-align: center;
+          font-family: "Raleway", sans-serif;
+          font-size: 17px;
+          font-weight: 400;
+          color: #304751;
+          margin-top: 27px; }
+        .container5 .card .plate .container-fluid .item_img h4 {
+          font-family: "Raleway", sans-serif;
+          text-transform: uppercase;
+          font-size: 16px;
+          font-weight: 700;
+          color: #304751;
+          margin-top: 22px; }
+
+.container6 {
+  margin: 0 auto;
+  text-align: center;
+  height: 400px; }
+  .container6 .easy {
+    width: 100%;
+    height: 100%;
+    background-color: #d4d8d9; }
+    .container6 .easy h3 {
+      font-family: "Raleway", sans-serif;
+      font-size: 29px;
+      font-weight: 700;
+      color: #2a3b40;
+      padding-top: 90px; }
+    .container6 .easy p {
+      display: inline-block;
+      margin-top: 40px;
+      max-width: 720px;
+      text-align: center;
+      font-family: "Raleway", sans-serif;
+      font-size: 19px;
+      font-weight: 400;
+      color: #2a3b40;
+      line-height: 1.5; }
+    .container6 .easy .elips {
+      margin-top: 45px; }
+    .container6 .easy .grupe {
+      position: relative;
+      top: 48px;
+      left: 543px;
+      width: 365px;
+      display: flex; }
+      .container6 .easy .grupe li {
+        margin-right: 52px; }
+        .container6 .easy .grupe li a {
+          color: #2a3b40;
+          font-family: "Raleway", sans-serif;
+          font-size: 17px;
+          font-weight: 700;
+          text-decoration: none; }
+    .container6 .easy .rise {
+      width: 243px;
+      text-align: left;
+      position: relative;
+      top: -308px; }
+    .container6 .easy .rises {
+      width: 243px;
+      text-align: right;
+      position: relative;
+      top: -711px;
+      left: 1200px; }
+
+.container7 {
+  margin: 0 auto;
+  text-align: center;
+  max-height: 843px; }
+
+.container8 {
+  margin: 0 auto;
+  text-align: center;
+  max-height: 890px;
+  margin-top: -2px; }
+
+.container9 {
+  margin: 0 auto;
+  text-align: center;
+  height: 454px; }
+  .container9 .book {
+    width: 100%;
+    height: 100%;
+    background-color: #2a3b40;
+    margin-top: -1px; }
+
+.container10 {
+  margin: 0 auto;
+  text-align: center;
+  max-height: 866px; }
 
 /*# sourceMappingURL=style.css.map */

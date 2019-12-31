@@ -224,7 +224,7 @@ header .menu  li a{
     margin-top: 30px;}
     p{
     font-family: $font-stack;
-    font-size: 16px;
+    font-size: $main_font_size;
     font-weight: 400;
     color: #2a3b40;
     margin-top: 40px;
@@ -262,7 +262,11 @@ header .menu  li a{
                 .container-fluid{
             padding-left: 0px;
             padding-right: 0px;
-            margin-top: 77px;
+            margin-top: 82px;
+            margin-left: -15px;
+            .item_img{
+                max-width: 270px;
+                height: 274px;
             h3{
                 display: block;
             font-family: $font-stack;
@@ -271,13 +275,108 @@ header .menu  li a{
             font-weight: 700;
             color: #304751;
             margin-top: 70px;}
-            p{text-align: center;
+            p{
+            text-align: center;
             font-family: $font-stack;
             font-size: 17px;
             font-weight: 400;
             color: #304751;
-            margin-top: 27px;
-            line-height: 1.5;
+            margin-top: 27px;}
+            h4{
+                font-family: $font-stack;
+                text-transform: uppercase;
+                font-size: $main_font_size;
+                font-weight: 700;
+                color: #304751;  
+                margin-top: 22px;
+        }}}}}}
 
-        }}}}}
 
+        .container6{
+            margin: 0 auto;
+            text-align: center;
+            height: 400px;
+            .easy{
+                width: 100%;
+                height: 100%;
+                background-color: #d4d8d9;
+            h3{
+                font-family: $font-stack;
+                font-size: 29px;
+                font-weight: 700;
+                color: #2a3b40;  
+                padding-top: 90px;}
+            p{
+                    display: inline-block;
+                    margin-top: 40px;
+                    max-width: 720px;
+                    text-align: center;
+                    font-family: $font-stack;
+                    font-size: 19px;
+                    font-weight: 400;
+                    color: #2a3b40;
+                    line-height: 1.5;}
+            .elips{
+                margin-top: 45px;}  
+            .grupe{
+                position: relative;
+                top: 48px;
+                left: 543px;
+                width: 365px;
+                display: flex;
+                li{
+                    margin-right: 52px;
+                    a{
+                        color: #2a3b40;
+                        font-family: $font-stack;
+                        font-size: 17px;
+                        font-weight: 700;
+                        text-decoration: none;
+            }}} 
+
+            .rise{
+                width: 243px;
+                text-align: left;
+                position: relative;
+                top: -308px;}  
+            .rises{
+                width: 243px;
+                text-align: right;
+                position: relative;
+                top: -711px;
+                left: 1200px;
+            
+        }}}
+
+        .container7{
+            margin: 0 auto;
+            text-align: center;
+            max-height: 843px;
+        }
+
+        .container8{
+            margin: 0 auto;
+            text-align: center;
+            max-height: 890px;
+            margin-top: -2px;
+        }
+
+
+        .container9{
+            margin: 0 auto;
+            text-align: center;
+            height: 454px;
+            .book{
+                width: 100%;
+                height: 100%;
+                background-color: #2a3b40;
+                margin-top: -1px;
+        }}
+
+
+        .container10{
+            margin: 0 auto;
+            text-align: center;
+            max-height: 866px;
+        }
+        
