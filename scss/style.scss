@@ -352,7 +352,80 @@ header .menu  li a{
             margin: 0 auto;
             text-align: center;
             max-height: 843px;
-        }
+            .disk{
+                text-align: center;
+                height: 600px;
+                width: 100%;
+                background-color: rgba(251, 249, 242, 0.82);
+                position: relative;
+                top: -602px;
+                h1{
+                    text-align: center;
+                position: relative;
+                top: 42px;
+                font-family: 'Cookie', cursive;
+                font-size: 77px;
+                color: #304751;}
+                h2{
+                    text-align: center;
+                    position: relative;
+                    top: 25px;
+                font-family: $font-stack;
+                font-size: 48px;
+                font-weight: 600;
+                color: #ad6c12;
+                text-transform: uppercase;}
+                .new{
+                    .container-fluid{
+                padding-left: 0px;
+                padding-right: 0px;
+                margin-top: 30px;
+                margin-left: -15px;
+                .item_img{
+                    max-width: 600px;
+                    height: 130px;
+                    text-align: left;
+                    #circle {
+                        display: inline-block;
+                        width: 82px;
+                        height: 82px;
+                        background: #ffffff;
+                        -moz-border-radius: 50px;
+                        -webkit-border-radius: 50px;
+                        border-radius: 50px;
+                        margin-top: 40px;
+                    }
+                h3{
+                    display: inline-block;
+                font-family: $font-stack;
+                text-transform: uppercase;
+                font-size: 19px;
+                font-weight: 700;
+                color: #304751;
+                position: relative;
+                top: -60px;
+                left: 5px;}
+                p{
+                width: 325px;
+                text-align: left;
+                font-family: $font-stack;
+                font-size: 17px;
+                font-weight: 400;
+                color: #304751;
+                position: relative;
+                top: -48px;
+                left: 92px;}
+                h4{
+                    max-width: 75px;
+                    font-family: $font-stack;
+                    text-transform: uppercase;
+                    font-size: $main_font_size;
+                    font-weight: 700;
+                    color: #304751;  
+                    position: relative;
+                    top: -64px;
+                    left: 315px;
+        }}}}}}
 
         .container8{
             margin: 0 auto;
@@ -360,6 +433,7 @@ header .menu  li a{
             max-height: 890px;
             margin-top: -2px;
         }
+    
 
 
         .container9{
@@ -379,4 +453,108 @@ header .menu  li a{
             text-align: center;
             max-height: 866px;
         }
+
+        .container11{
+            margin: 0 auto;
+            text-align: center;
+            height: 820px;
+            .cover{
+                text-align: center;
+                height: 100%;
+                width: 100%;
+                background-color: #d4d8d9;
+                margin-top: -2px;
+                h1{
+                    text-align: center;
+                position: relative;
+                top: 42px;
+                font-family: 'Cookie', cursive;
+                font-size: 77px;
+                color: #304751;}
+                h2{
+                    text-align: center;
+                    position: relative;
+                    top: 25px;
+                font-family: $font-stack;
+                font-size: 48px;
+                font-weight: 600;
+                color: #ad6c12;
+                text-transform: uppercase;}
+                .new2{
+                    .container-fluid{
+                padding-left: 0px;
+                padding-right: 0px;
+                margin-top: 75px;
+                .item_img{
+                    background-color: #ffffff;
+                    max-width: 342px;
+                    height: 501px;
+                img{
+                    width: 342px;
+                }
+                span{
+                    text-align: left;
+                    display: block;
+                    font-family: $font-stack;
+                    font-size: 14px;
+                    font-weight: 700;
+                    color: #555555;
+                    margin-top: 25px;
+                    margin-left: 25px;}
+                    h3{
+                    text-align: left;
+                    font-family: $font-stack;
+                    font-size: 17px;
+                    font-weight: 700;
+                    color: #4f4e4e;
+                    margin-top: 25px;
+                    margin-left: 25px;}
+                    p{
+                        text-align: left;
+                        font-family: $font-stack;
+                        font-size: 17px;
+                        font-weight: 400;
+                        color: #4f4e4e;
+                        margin-top: 12px;
+                        margin-left: 25px;}
+                        h4{
+                            text-align: left;
+                            font-family: $font-stack;
+                            text-transform: uppercase;
+                            font-size: $main_font_size;
+                            font-weight: 700;
+                            color: #656565; 
+                            font-size: 14px; 
+                            margin-top: 28px;
+                            margin-left: 25px;
+                            padding-bottom: 6px;
+                            border-bottom: 8px solid #ff992b;
+                            width: 84px;}
+                            a{
+                                text-decoration: none;
+                
+        }}}}}}
+
+
+        .container12{
+            margin: 0 auto;
+            text-align: center;
+            height: 342px;
+            .linda{
+                width: 100%;
+                height: 100%;
+                background-color: #2a3b40;
+                margin-top: -1px;
+        }}
+
+
+        footer{
+            margin: 0 auto;
+            text-align: center;
+            height: 324px;
+            .about{
+                width: 100%;
+                height: 100%;
+                background-color: #d4d8d9;
+        }}
         
