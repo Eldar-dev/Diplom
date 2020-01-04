@@ -400,6 +400,107 @@ header .menu li a {
     height: 100%;
     background-color: #2a3b40;
     margin-top: -1px; }
+    .container9 .book h2 {
+      text-align: center;
+      color: #ffffff;
+      font-family: 'Cookie', cursive;
+      font-size: 77px;
+      padding-top: 48px; }
+    .container9 .book .new1 {
+      margin-left: -70px; }
+      .container9 .book .new1 .container-fluid {
+        text-align: left;
+        font-size: 17px;
+        font-family: "Raleway", sans-serif;
+        font-weight: 700;
+        color: #ffffff; }
+        .container9 .book .new1 .container-fluid .form-control {
+          margin-top: 10px;
+          width: 237px;
+          height: 32px;
+          color: #ffffff;
+          border: 1px solid #ffffff;
+          background-color: #2a3b40;
+          font-size: 17px;
+          font-family: "Raleway", sans-serif;
+          font-weight: 700;
+          padding-bottom: 2px; }
+
+form label {
+  display: block;
+  margin-top: 42px; }
+
+form input[type=email] {
+  background: 0;
+  margin-top: 10px;
+  width: 237px;
+  height: 32px;
+  font-size: 17px;
+  font-weight: 700;
+  color: #ffffff;
+  text-decoration: none;
+  border: 1px solid #ffffff;
+  border-radius: .25rem;
+  padding-left: 10px; }
+
+form input[type=email]::-webkit-input-placeholder {
+  font-size: 17px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  color: #ffffff;
+  text-decoration: none; }
+
+form input[type=email]:focus {
+  outline: none;
+  border: 1px solid blue; }
+
+form input[type=email]:focus::-webkit-input-placeholder {
+  color: #999999;
+  font-size: 15px; }
+
+form input[type=phone] {
+  background: 0;
+  margin-top: 10px;
+  width: 237px;
+  height: 32px;
+  font-size: 17px;
+  font-weight: 700;
+  color: #ffffff;
+  text-decoration: none;
+  border: 1px solid #ffffff;
+  border-radius: .25rem;
+  padding-left: 10px; }
+
+form input[type=phone]::-webkit-input-placeholder {
+  font-size: 17px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  color: #ffffff;
+  text-decoration: none; }
+
+form input[type=phone]:focus {
+  outline: none;
+  border: 1px solid blue; }
+
+form input[type=phone]:focus::-webkit-input-placeholder {
+  color: #999999;
+  font-size: 15px; }
+
+form input[type=submit] {
+  background: 0;
+  width: 237px;
+  height: 32px;
+  font-size: 17px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  color: #ffffff;
+  text-decoration: none;
+  border: 1px solid #ffffff;
+  border-radius: .25rem;
+  margin-top: 50px; }
+
+form input[type=submit]:hover {
+  background: #15a4fa; }
 
 .container10 {
   margin: 0 auto;
@@ -488,10 +589,69 @@ header .menu li a {
   text-align: center;
   height: 342px; }
   .container12 .linda {
+    text-align: center;
     width: 100%;
     height: 100%;
     background-color: #2a3b40;
     margin-top: -1px; }
+    .container12 .linda .sv {
+      height: 30px;
+      width: 30px;
+      color: #ffffff;
+      margin-top: 47px; }
+    .container12 .linda .stew {
+      width: 700px;
+      height: 200px;
+      margin-left: 380px;
+      margin-top: 37px;
+      color: #ffffff; }
+      .container12 .linda .stew p {
+        font-size: 18px;
+        font-family: "Raleway", sans-serif;
+        font-weight: 400;
+        line-height: 2; }
+      .container12 .linda .stew h3 {
+        font-size: 18px;
+        font-family: "Raleway", sans-serif;
+        font-weight: 700;
+        margin-top: 30px; }
+      .container12 .linda .stew .social {
+        width: 430px;
+        height: 70px;
+        margin-left: 120px;
+        margin-top: 30px; }
+        .container12 .linda .stew .social ul {
+          display: flex;
+          justify-content: space-around; }
+          .container12 .linda .stew .social ul li {
+            background-color: #ffffff;
+            border-radius: 50px;
+            width: 37px;
+            height: 37px;
+            display: flex;
+            padding-top: 5px;
+            padding-left: 5px; }
+            .container12 .linda .stew .social ul li svg {
+              height: 90%;
+              width: 90%;
+              color: #2a3b40;
+              text-align: center; }
+
+.container12 .linda .social .face:hover {
+  background-color: #3b5998; }
+
+.container12 .linda .social .twitt:hover {
+  background-color: #00acee; }
+
+.container12 .linda .social .inst:hover {
+  width: 50px;
+  height: 50px; }
+
+.container12 .linda .social .pint:hover {
+  background-color: red; }
+
+.container12 .linda .social .goog:hover {
+  background-color: green; }
 
 footer {
   margin: 0 auto;
@@ -501,5 +661,53 @@ footer {
     width: 100%;
     height: 100%;
     background-color: #d4d8d9; }
+    footer .about .new3 .container-fluid {
+      padding-top: 72px; }
+      footer .about .new3 .container-fluid .item_img h2 {
+        text-transform: uppercase;
+        text-align: left;
+        font-family: "Raleway", sans-serif;
+        font-size: 25px;
+        font-weight: 700;
+        color: #2d2f2a; }
+      footer .about .new3 .container-fluid .item_img p {
+        line-height: 1.5;
+        width: 330px;
+        text-align: left;
+        font-family: "Raleway", sans-serif;
+        font-size: 19px;
+        font-weight: 400;
+        color: #2d2f2a;
+        margin-top: 52px; }
+      footer .about .new3 .container-fluid .item_img h3 {
+        text-transform: uppercase;
+        text-align: left;
+        font-family: "Raleway", sans-serif;
+        font-size: 21px;
+        font-weight: 700;
+        color: #2d2f2a; }
+      footer .about .new3 .container-fluid .item_img .test {
+        line-height: 1.5;
+        text-align: left;
+        font-family: "Raleway", sans-serif;
+        font-size: 21px;
+        font-weight: 700;
+        color: #2d2f2a;
+        margin-top: 52px; }
+      footer .about .new3 .container-fluid .item_img h4 {
+        text-transform: uppercase;
+        text-align: left;
+        font-family: 'Roboto', sans-serif;
+        font-size: 21px;
+        font-weight: 700;
+        color: #2d2f2a; }
+      footer .about .new3 .container-fluid .item_img .tset {
+        line-height: 1.5;
+        text-align: left;
+        font-family: 'Roboto', sans-serif;
+        font-size: 21px;
+        font-weight: 400;
+        color: #2d2f2a;
+        margin-top: 52px; }
 
 /*# sourceMappingURL=style.css.map */

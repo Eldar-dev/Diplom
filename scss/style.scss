@@ -53,6 +53,13 @@ $main_color2:#ffffff;
 $font-stack: 'Raleway', sans-serif;
 $main_font_size: 16px;
 $h3_size: $main_font_size * 2;
+$big_size: $main_font_size * 3;
+
+@mixin border-radius($propety){
+    -moz-border-radius: $propety;
+    -webkit-border-radius: $propety;
+    border-radius: $propety; 
+}
 
 
 .wrapper{
@@ -254,7 +261,7 @@ header .menu  li a{
                 position: relative;
                 top: 45px;
 	        font-family: $font-stack;
-	        font-size: 48px;
+	        font-size: $big_size;
 	        font-weight: 600;
             color: #ad6c12;
             text-transform: uppercase;}
@@ -371,7 +378,7 @@ header .menu  li a{
                     position: relative;
                     top: 25px;
                 font-family: $font-stack;
-                font-size: 48px;
+                font-size: $big_size;
                 font-weight: 600;
                 color: #ad6c12;
                 text-transform: uppercase;}
@@ -389,10 +396,8 @@ header .menu  li a{
                         display: inline-block;
                         width: 82px;
                         height: 82px;
-                        background: #ffffff;
-                        -moz-border-radius: 50px;
-                        -webkit-border-radius: 50px;
-                        border-radius: 50px;
+                        background: $main_color2;
+                        @include border-radius(50px);
                         margin-top: 40px;
                     }
                 h3{
@@ -445,8 +450,118 @@ header .menu  li a{
                 height: 100%;
                 background-color: #2a3b40;
                 margin-top: -1px;
-        }}
+                h2{
+                    text-align: center;
+                    color: #ffffff;
+	                font-family: 'Cookie', cursive;
+                    font-size: 77px;
+                    padding-top: 48px;}
+                .new1{
+                    margin-left: -70px;
+                    .container-fluid{
+                        text-align: left;
+                        font-size: 17px;
+                        font-family: $font-stack;
+                        font-weight: 700;
+                        color:  $main_color2;
+                        .form-control{
+                            margin-top: 10px;
+                            width: 237px;
+                            height: 32px;
+                            color: $main_color2;
+                            border: 1px solid $main_color2;
+                            background-color: #2a3b40;
+                            font-size: 17px;
+                            font-family: $font-stack;
+                            font-weight: 700;
+                            padding-bottom: 2px;
 
+        }}}}}
+
+        form label{
+            display: block;
+            margin-top: 42px;
+        }
+
+
+        form input[type=email]{background: 0;
+            margin-top: 10px;
+            width: 237px;
+            height: 32px;
+            font-size: 17px;
+            font-weight: 700;
+            color: $main_color2;
+            text-decoration: none;
+            border: 1px solid $main_color2;
+            border-radius: .25rem;
+            padding-left: 10px;
+        }
+        
+        form input[type=email]::-webkit-input-placeholder{
+            font-size: 17px;
+            font-family: $font-stack;
+            font-weight: 700;
+            color: $main_color2;
+            text-decoration: none
+        }
+        
+        form input[type=email]:focus{
+            outline: none;
+            border: 1px solid blue;
+        }
+        form input[type=email]:focus::-webkit-input-placeholder{
+            color: #999999;
+            font-size: 15px;
+        }
+
+        form input[type=phone]{background: 0;
+            margin-top: 10px;
+            width: 237px;
+            height: 32px;
+            font-size: 17px;
+            font-weight: 700;
+            color: $main_color2;
+            text-decoration: none;
+            border: 1px solid $main_color2;
+            border-radius: .25rem;
+            padding-left: 10px;
+        }
+        
+        form input[type=phone]::-webkit-input-placeholder{
+            font-size: 17px;
+            font-family: $font-stack;
+            font-weight: 700;
+            color: $main_color2;
+            text-decoration: none
+        }
+        
+        form input[type=phone]:focus{
+            outline: none;
+            border: 1px solid blue;
+        }
+        form input[type=phone]:focus::-webkit-input-placeholder{
+            color: #999999;
+            font-size: 15px;
+        }
+
+
+        form input[type=submit]{
+            background: 0;
+            width: 237px;
+            height: 32px;
+            font-size: 17px;
+            font-family: $font-stack;
+            font-weight: 700;
+            color: $main_color2;
+            text-decoration: none;
+            border: 1px solid $main_color2;
+            border-radius: .25rem;
+            margin-top: 50px;
+        }
+        
+        form input[type=submit]:hover{
+            background: #15a4fa;
+        }
 
         .container10{
             margin: 0 auto;
@@ -476,7 +591,7 @@ header .menu  li a{
                     position: relative;
                     top: 25px;
                 font-family: $font-stack;
-                font-size: 48px;
+                font-size: $big_size;
                 font-weight: 600;
                 color: #ad6c12;
                 text-transform: uppercase;}
@@ -486,7 +601,7 @@ header .menu  li a{
                 padding-right: 0px;
                 margin-top: 75px;
                 .item_img{
-                    background-color: #ffffff;
+                    background-color: $main_color2;
                     max-width: 342px;
                     height: 501px;
                 img{
@@ -541,11 +656,76 @@ header .menu  li a{
             text-align: center;
             height: 342px;
             .linda{
+                text-align: center;
                 width: 100%;
                 height: 100%;
                 background-color: #2a3b40;
                 margin-top: -1px;
-        }}
+                .sv{
+                    height: 30px;
+                    width: 30px;
+                    color: $main_color2;
+                    margin-top: 47px;}
+                .stew{
+                    width: 700px;
+                    height: 200px;
+                    margin-left: 380px;
+                    margin-top: 37px;
+                    color: $main_color2;
+                    p{
+                        font-size: 18px;
+                        font-family: $font-stack;
+                        font-weight: 400;
+                        line-height: 2;}
+                    h3{
+                        font-size: 18px;
+                        font-family: $font-stack;
+                        font-weight: 700;
+                        margin-top: 30px;}
+                    .social{ 
+                        width: 430px;
+                        height: 70px;
+                        margin-left: 120px;
+                        margin-top: 30px;
+                        ul{
+                            display: flex;
+                            justify-content: space-around;
+                            li{
+                                background-color: $main_color2;
+                                border-radius: 50px;
+                                width: 37px;
+                                height: 37px;
+                                display: flex;
+                                padding-top: 5px;
+                                padding-left: 5px;
+                                svg{
+                                    height: 90%;
+                                    width: 90%;
+                                    color: #2a3b40;
+                                    text-align: center;
+                                    
+        }}}}}}}
+
+
+        .container12 .linda .social .face:hover{
+            background-color: #3b5998;
+        }
+        .container12 .linda .social .twitt:hover{
+            background-color: #00acee;
+        }
+        .container12 .linda .social .inst:hover{
+            width: 50px;
+            height: 50px;
+        }
+        .container12 .linda .social .pint:hover{
+            background-color: red;
+        }
+        .container12 .linda .social .goog:hover{
+            background-color: green;
+        
+        
+        }
+        
 
 
         footer{
@@ -556,5 +736,55 @@ header .menu  li a{
                 width: 100%;
                 height: 100%;
                 background-color: #d4d8d9;
-        }}
+                .new3{
+                    .container-fluid{
+                padding-top: 72px;
+                .item_img{
+                    h2{
+                        text-transform: uppercase;
+                        text-align: left;
+                        font-family: $font-stack;
+                        font-size: 25px;
+                        font-weight: 700;
+                        color: #2d2f2a;}
+                        p{
+                            line-height: 1.5;
+                            width: 330px;
+                            text-align: left;
+                            font-family: $font-stack;
+                            font-size: 19px;
+                            font-weight: 400;
+                            color: #2d2f2a;
+                            margin-top: 52px;}
+                    h3{
+                        text-transform: uppercase;
+                        text-align: left;
+                        font-family: $font-stack;
+                        font-size: 21px;
+                        font-weight: 700;
+                        color: #2d2f2a;} 
+                    .test{
+                        line-height: 1.5;
+                        text-align: left; 
+                        font-family: $font-stack;
+                            font-size: 21px;
+                            font-weight: 700;
+                            color: #2d2f2a;
+                            margin-top: 52px;}
+                    h4{
+                                text-transform: uppercase;
+                                text-align: left;
+                                font-family:'Roboto', sans-serif;
+                                font-size: 21px;
+                                font-weight: 700;
+                                color: #2d2f2a;} 
+                    .tset{
+                                line-height: 1.5;
+                                text-align: left; 
+                                font-family: 'Roboto', sans-serif;
+                                    font-size: 21px;
+                                    font-weight: 400;
+                                    color: #2d2f2a;
+                                    margin-top: 52px;                    
+            }}}}}}
         
