@@ -829,8 +829,8 @@ header .menu  li a{
                         .elipse{
                             .container-fluid{
                                 width: 820px;
-                                top: 25px;
-                                left: 130px;
+                                top: 85px;
+                                left: 90px;
                                 .item_img{
                                     p{
                                         margin-top: 30px;
@@ -860,7 +860,11 @@ header .menu  li a{
                                 left: 373px;
                             }
                             .rise{
-                                top: -337px;}}}
+                                top: -337px;}
+                                .rises{
+                                    top: -741px;
+                                    left: 860px;
+                            }}}
                     .container7{
                         img{
                             width: 100%;}
@@ -893,7 +897,87 @@ header .menu  li a{
                                 margin-left: 220px;
                         }}}
                     footer{
-                        width: 1080px;
-                    }
-                    }}
+                        width: 1105px;
+                    }}}
+
+
+                    @media(max-width: 320px){
+                        .wrapper{
+                            width: 994px;
+
+                            .container2{
+                                .cen{
+                                    left: 130px;}}
+                        .container3{
+                            margin-top: -48px;
+                            .about{
+                                h3{
+                                    left: 10px;}
+                                p{
+                                    left: 10px;
+                                }
+                                .grida{
+                                    top: -90px;
+                                    left: 470px;
+                                }}}
+
+
+                                .container4{
+                                    .elipse{
+                                        .container-fluid{
+                                            top: 35px;
+                                           }}}
+            
+                                .container5{
+                                   
+                                    .card{
+                                        margin-top: 86px;
+                                        height: 835px;
+                                        top: -922px;
+                                        .plate{
+                                            .container-fluid{
+                                            margin-top: 9px;
+                                            .item_img{
+                                                max-width: 240px;
+                                                height: 244px;
+                                    }}}}}
+                            
+                                    .container6{
+                                        margin-top: -370px;
+                                    .easy{
+                                        .elips{
+                                            margin-top: 35px;}
+                                            .grupe{
+                                                left: 313px;
+                                                top: 28px;}
+                                                .rise{
+                                                    top: -329px;}
+                                            .rises{
+                                                top: -731px;
+                                                left: 750px;
+                                            
+                                        }}}
+
+                                        .container7{
+                                            .disk{
+                                                height: 580px;
+                                                top: -583px;
+                                                
+                                            }}
+
+                                        .container8{
+                                            margin-top: -259px;}
+                                        .container11{
+                                            .cover{
+                                                .new2{
+                                                    .container-fluid{
+                                                        .item_img{
+                                                            max-width: 312px;
+                                                            img{
+                                                                width: 314px;
+                                                            }}}}}}
+                                footer{
+                                    width: 994px;
+                            
+                            }}}
         

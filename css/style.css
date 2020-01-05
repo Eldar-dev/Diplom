@@ -740,8 +740,8 @@ footer {
       left: 530px; }
     .wrapper .container4 .elipse .container-fluid {
       width: 820px;
-      top: 25px;
-      left: 130px; }
+      top: 85px;
+      left: 90px; }
       .wrapper .container4 .elipse .container-fluid .item_img p {
         margin-top: 30px; }
     .wrapper .container5 img {
@@ -764,6 +764,9 @@ footer {
         left: 373px; }
       .wrapper .container6 .easy .rise {
         top: -337px; }
+      .wrapper .container6 .easy .rises {
+        top: -741px;
+        left: 860px; }
     .wrapper .container7 img {
       width: 100%; }
     .wrapper .container7 .disk .new .container-fluid {
@@ -784,6 +787,54 @@ footer {
     .wrapper .container12 .linda .stew {
       margin-left: 220px; }
     .wrapper footer {
-      width: 1080px; } }
+      width: 1105px; } }
+@media (max-width: 320px) {
+  .wrapper {
+    width: 994px; }
+    .wrapper .container2 .cen {
+      left: 130px; }
+    .wrapper .container3 {
+      margin-top: -48px; }
+      .wrapper .container3 .about h3 {
+        left: 10px; }
+      .wrapper .container3 .about p {
+        left: 10px; }
+      .wrapper .container3 .about .grida {
+        top: -90px;
+        left: 470px; }
+    .wrapper .container4 .elipse .container-fluid {
+      top: 35px; }
+    .wrapper .container5 .card {
+      margin-top: 86px;
+      height: 835px;
+      top: -922px; }
+      .wrapper .container5 .card .plate .container-fluid {
+        margin-top: 9px; }
+        .wrapper .container5 .card .plate .container-fluid .item_img {
+          max-width: 240px;
+          height: 244px; }
+    .wrapper .container6 {
+      margin-top: -370px; }
+      .wrapper .container6 .easy .elips {
+        margin-top: 35px; }
+      .wrapper .container6 .easy .grupe {
+        left: 313px;
+        top: 28px; }
+      .wrapper .container6 .easy .rise {
+        top: -329px; }
+      .wrapper .container6 .easy .rises {
+        top: -731px;
+        left: 750px; }
+    .wrapper .container7 .disk {
+      height: 580px;
+      top: -583px; }
+    .wrapper .container8 {
+      margin-top: -259px; }
+    .wrapper .container11 .cover .new2 .container-fluid .item_img {
+      max-width: 312px; }
+      .wrapper .container11 .cover .new2 .container-fluid .item_img img {
+        width: 314px; }
+    .wrapper footer {
+      width: 994px; } }
 
 /*# sourceMappingURL=style.css.map */
