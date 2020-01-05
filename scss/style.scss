@@ -126,7 +126,7 @@ header .menu  li a{
     background-color: rgba(217, 220, 221, 0.82);
     position: relative;
     top: -695px;
-    margin-left: 340px;
+    left: 340px;
 }
 
 .container2 h1{
@@ -787,4 +787,113 @@ header .menu  li a{
                                     color: #2d2f2a;
                                     margin-top: 52px;                    
             }}}}}}
+
+
+            @media(max-width: 768px){
+                .wrapper{
+                    width: 1105px;
+                header{
+                    .men{
+                        left: 50px;
+                        li{
+                           a{
+                               font-size: 30px;
+                           }}}
+                    .menu{
+                        margin-left: 0px;
+                        top: 29px;
+                        left: -50px;
+                        li{
+                          a{
+                              font-size: 30px;
+                          }}}}
+                .container2{
+                    height: 738px;
+                    .photo1{
+                        width: 100%;
+                    }
+                    .cen{
+                        left: 170px;
+                        top: -575px;}}
+                .container3{
+                    h3{
+                        left: 50px;}
+                    p{
+                        left: 50px;
+                        width: 460px;}
+                    .grida{
+                        top: -90px;
+                        left: 530px;}}
+
+                    .container4{
+                        .elipse{
+                            .container-fluid{
+                                width: 820px;
+                                top: 25px;
+                                left: 130px;
+                                .item_img{
+                                    p{
+                                        margin-top: 30px;
+                                    }}}}}
+
+                    .container5{
+                        img{
+                        width: 100%;}
+                        .card{
+                            margin-top: 86px;
+                            height: 928px;
+                            top: -1015px;
+                            h1{
+                                top: 0px;}
+                            h2{
+                                top: 0px;}
+                            .plate{
+                                .container-fluid{
+                                margin-top: 9px;
+                        }}}}
+                    .container6{
+                        margin-top: -280px;
+                        .easy{
+                            p{
+                                max-width: 520px;}
+                            .grupe{
+                                left: 373px;
+                            }
+                            .rise{
+                                top: -337px;}}}
+                    .container7{
+                        img{
+                            width: 100%;}
+                        .disk{
+                            .new{
+                                .container-fluid{
+                                    margin-left: -35px;
+                                }}}}
+                        
+                    .container8{
+                        margin-top: -198px;
+                        img{
+                            width: 100%;}}
+                    .container9{
+                        .book{
+                            margin-top: -3px;
+                            h2{
+                              padding-top: 0px;}
+                            .new1{
+                                margin-left: 180px;
+                                margin-top: -30px;
+                    }}}
+                    .container10{
+                        img{
+                            width: 100%;
+                            }}
+                    .container12{
+                        .linda{
+                            .stew{
+                                margin-left: 220px;
+                        }}}
+                    footer{
+                        width: 1080px;
+                    }
+                    }}
         
